@@ -1,0 +1,8 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "CodeReviewLambda"
+        Alias: "live"
+        CurrentVersion: "1"
